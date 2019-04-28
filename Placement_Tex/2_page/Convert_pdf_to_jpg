@@ -1,0 +1,3 @@
+#! /bin/bash
+
+convert -density 500 Resume.pdf Resume.jpg

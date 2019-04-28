@@ -1,0 +1,399 @@
+
+\documentclass{resume}
+\usepackage{enumitem}
+\usepackage[left = 0.4in,right=0.4in,top=0.1in,bottom=0.1in]{geometry} 
+\usepackage{relsize}
+\usepackage{scrextend}
+
+%\usepackage{graphicx}
+%\renewcommand\footnoterule{\rule{\linewidth}{0.1pt}}
+%\usepackage[left = 0.75in,right=0.75in,top=0.6in,bottom=0.6in]{geometry} % Old Document margins
+
+\newcommand{\sepval}{-0.5em}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3.5cm}
+
+\renewcommand\labelitemi{\raisebox{0.45ex}{\tiny$\bullet$}}
+
+\begin{rSection}{Scholastic Achievements}
+
+\begin{itemize}[leftmargin=*]
+	
+	\itemsep \sepval
+
+	\item Secured {\bf All India Rank 241} in {\bf JEE-Advanced-2014} with a percentile of {\bf 99.8} among {\bf 1.2 lakh} candidates
+	
+	\item Scored {\bf 342 out of 360} in {\bf JEE-MAIN-2014} with a percentile of {\bf 99.92} among {\bf 12.7 lakh} candidates
+
+	%\item Scored {\bf 342/360} in {\bf JEE-Main-2014}, a National level Entrance Exam for Engineering Colleges across India
+	
+	\item  Achieved {\bf All India Rank 163} in prestigious {\bf KVPY fellowship, 2014} conducted by {\bf DST, Govt. of India}
+
+	%\item Awarded the prestigious {\bf Kishore Vaigyanik Protsahan Yojana} mentorship scheme, 2014
+	
+	%\item Awarded {\bf Merit Certificate} in {\bf National Standard Examination in Astronomy-2014} and 
+	%      {\bf National Standard Examination in Chemistry-2014} for being among Top 300 students across the country
+	
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional \& Research Experience}
+
+\vspace{-.4cm}
+ 
+\item{\bf {\bf Embedded System Engineer}}\hfill{(May'17 - Jul'17)}\\ \emph{Greetude Energy Pvt. Ltd, Bangalore}\\
+[-0.4cm]
+  
+\begin{itemize}[leftmargin=*]
+    
+	\itemsep \sepval
+ 
+	\item Recieved a {\bf Letter of Appreciation} for {\bf exceptional value additions} and {\bf strong  work ethics} in assigned projects
+	
+	\item Designed a {\bf Remote Billboard Surveillance System}, providing periodic images on {\bf Google drive} and {\bf AWS Bucket}
+	 
+	\item Developed a {\bf control and debug interface} for the site and {\bf circular logs} for {\bf energy consumption and crashes}
+
+	\item Devised a {\bf Smart Metering System} for transmition and logging of standard power parameters onto the main server logs
+ 
+	\item System included {\bf synchronously reading internal registers} and {\bf space efficient circular logging} of the parameters
+	      
+ 
+\end{itemize}
+
+\vspace{-0.1cm}
+\item {\bf{Linux Port to Indigenous AJIT Processor}} \hfill {(Jul'18 - Present)}\\
+
+\emph{Guide: Prof. Madhav P. Desai, IIT-Bombay}\\
+[-0.6cm]
+
+\begin{itemize}[leftmargin=*]
+		
+	\itemsep \sepval
+
+	\item Member of {\bf Embedded Software Design} team of {\bf India's first} in-house {\bf designed and fabricated processor}
+	
+	\item Generated and tested an {\bf exclusive AXI-Lite interface DDR Memory controller} for a {\bf 32 bit Sparc V8 processor}
+	      
+	\item Conducted memory tests on the Xilinx Virtex 7 Series {\bf FPGA} board with a prototype Microblaze processor.
+	
+	\item Developed a {\bf PCIe - AXI interface} and verified it with a {\bf custom-developed C driver for PCIe peripherals}
+
+	\item Generated an {\bf exclusive Memory mapped AXI Stream FIFOs} through {\bf High Level Synthesis} tools
+
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Key Course Projects}
+
+\vspace{-.4cm}
+
+\item {\bf Android 5 Port to ZedBoard} \hfill {(Jan'18 - May'18)}\\
+[-0.4cm]
+%\emph{Guide: Prof. Sachin Patkar, IIT-Bombay}\\
+
+\begin{itemize}[leftmargin=*]
+
+	\itemsep \sepval
+
+	\item {\bf Ported Android 5}(Lollipop) to {\bf ARM Cortex A9} to build a {\bf bare bone IoT infrastructure} on Zedboard
+	
+	\item Developed {\bf First Stage bootloader}, {\bf Second Stage bootloader and an Android patched Kernel} from scratch
+	
+	\item Designed {\bf exclusive HDMI hardware block} and a {\bf GPIO core} using programmable logic segments
+	
+\end{itemize}
+
+\vspace{-0.1cm}
+\item {\bf Hexapod Navigation using WiFi Localization}  \hfill{(Feb'18 - Apr'18)}\\
+[-0.4cm]
+%\emph{Guide: Prof. Kavi Arya, IIT-Bombay}\\
+
+\begin{itemize}[leftmargin=*]
+
+	\itemsep \sepval
+
+	\item Designed a {\bf 1.5m $\times$ 1.5m indoor localization} network using {\bf Xbee radios} for closed space settings
+	     
+	\item Achieved an {\bf average location accuracy of 90\%} for indoor setting with an {\bf error bound of $\pm$10cm}
+	
+	\item Calculated location by taking a {\bf moving average} of {\bf Trilateration algorithm} results on target to node distances
+
+	%\item Fabricated and assembled a {\bf Hexapod} with 18 degrees of freedom from ground up as a target object.  
+
+	%\item Demonstrated scenario where Hexapod was guided by the coordinates from the localization system.
+
+\end{itemize}
+
+%\item {\bf LoRaWAN Network} \hfill {(Apr'17-Nov'17)} \\
+% 
+%\emph{(Guide: Prof. Maryam S.Baghineni, IIT-Bombay)}\\
+%[-0.6cm]
+%
+%\begin{itemize}
+%  
+%	\itemsep \sepval
+%
+%	\item Tested and utilized {\bf newly emerging radio technology LoRaWAN} to develop an {\bf agricultural monitoring system} on the LoRaWAN kit provided by {\bf Microchip Technologies}.
+%  	
+%	\item Deployed one {\bf Gateway} and two {\bf end nodes} in field to collect and publish data such as {\bf soil moisture and air humidity}.
+%  	
+%	\item The network can encapsulate up to {\bf 1 million devices} in the field located in a radius of 10 km.
+% 
+%\end{itemize}
+
+\vspace{-0.1cm}
+\item {\bf Walk Smart Vision} \hfill {(Jan'17 - Apr'17)}\\
+[-0.4cm]
+%\emph{Guide: Prof. Kushal R.Tuckley, IIT-Bombay}\\
+%[-0.6cm]
+
+\begin{itemize}[leftmargin=*]
+
+	\itemsep \sepval
+
+	
+	\item Designed a {\bf 3-level navigation} system for the visually impaired people using a {\bf Star network of Xbee radios}
+	
+	\item Conveyed {\bf critical obstacle} information to the user through {\bf surficial vibrations proportional} to the {\bf proximity}
+      
+	\item Demonstrated performance in a {\bf populous setting} with successful navigation by {\bf blindfolded novice} users   
+	      %{\bf able to navigate his path} on his own {\bf without colliding} with any object.
+	
+\end{itemize}
+
+%\item {\bf Pen-Plotter} \hfill {(May'15 - June'15)} \\
+%
+%\emph{(Guide: STAB, IIT-Bombay)}\\
+%[-0.6cm]
+%
+% \begin{itemize}
+%
+%	\itemsep \sepval
+% 	
+%  	\item Designed and {\bf architected} an {\bf auto-sketcher} bot capable of {\bf sketching and mimicking hand-writing} 
+%	      through finely directed motor steps.
+% 	
+%	\item For {\bf creating instructions} every picture was carefully {\bf divided into a fine grid} after an 
+%	      {\bf edge extraction process} conducted in MATLAB.
+%
+%	\item Sketcher was provided instructions prepared in MATLAB post image processing through a {\bf serial interface}.
+%
+%	%\item Link to the project : {\bf https://stab-iitb.org/itsprandomap/documentation?id=69}\\
+%
+% \end{itemize}
+
+%\end{rSection}
+
+%-------------------------------------------------
+%	Key Course Projects
+%-------------------------------------------------
+
+%\begin{rSection}{Key Course Projects}
+\vspace{-0.1cm}
+
+\item {\bf{Real Time Audio Compression using MDCT}} \hfill{(Mar'17 - Apr'17)}\\
+[-0.4cm]
+%\emph{Guide: Prof. V.M Gadre, IIT-Bombay}\\
+%[-0.6cm]
+
+\begin{itemize}[leftmargin=*]
+
+	\itemsep \sepval
+
+	\item Achieved {\bf 5x} compression by {\bf redundant data removal} using {\bf{Modified Discrete Cosine Transform}}
+
+	\item Improved {\bf 80\% efficiency} for storage and transmission of audio signals while conserving {\bf 95\% signal information}
+
+	\item Developed a {\bf compression block} and a {\bf wireless socket block} to compress \& transmit the audio in {\bf real time}
+
+\end{itemize}
+
+%\item {\bf Data Abstraction Layer} \hfill {Mar'15 - Apr'15}\\
+%
+%\emph{(Guide: Prof. Saurabh Lodha, IIT-Bombay)}\\
+%[-0.6cm]
+%
+%\begin{itemize}
+%
+%	\item Interfaced {\bf MAX V CPLD} board with {\bf SRAM, ADC and DAC} to sample, store and display mixed signals.
+%
+%	\item Developed {\bf SRAM, ADC and DAC drivers} from scratch in {\bf VHDL} and verified them through simulations on {\bf GTKWave}.
+%
+%\end{itemize}
+%
+%\item {\bf Processor Designing \& Testing} \hfill {Sep'16 - Nov'16}\\
+%
+%\emph{(Guide: Prof. Virendra Singh, IIT-Bombay)}\\
+%[-0.6cm]
+%
+%\begin{itemize}
+%
+%	\item Designed \& implemented an {\bf 8-bit multi-cycle RISC processor} in VHDL \& verified it by simulating in Quartus ModelSim.
+%
+%	\item Validated the design for all 14 instructions of the ISA on Altera {\bf DE0 Nano FPGA} using the {\bf Signal-Tap Analyzer}. 
+%
+%\end{itemize}
+
+
+%\item {\bf Drive Parameter Extraction} \hfill {(Apr'17-Nov'17)} \\
+%
+%\emph{(Guide: Prof. Siddarth Tallur, IIT-Bombay)}\\
+%[-0.6cm]
+%
+%\begin{itemize}
+%  
+%	\itemsep \sepval
+%
+%	\item Designed a system for extracting {\bf critical parameters} in a shot played by a batsmen such as 
+%	      {\bf Angular velocity} and {\bf Angular acceleration} of the bat. 
+%	      
+%	\item The system included an {\bf Accelerometer} and a {\bf Gyroscope} for measurements along with a {\bf Zigbee radio} for transmission of data.
+%	      
+%	\item Parameters such as {\bf delay in the shot, angular position of the bat} at the time of impact could easily be seen in the results.
+%  
+%	%\item {\bf Link to the paper :} \href{https://drive.google.com/open?id=1RHeBitUczIi2RvkeDEqa-HXAyb0wstiU}{Cricket Bat Sensor}
+% 
+%\end{itemize}
+
+
+%\item {\bf{Book Genre Classifier}} \hfill{(Mar'18-May'18)}\\
+%
+%\emph{(Guide: Prof. Amit Sethi, IIT-Bombay)}\\
+%[-0.6cm]
+%
+%\begin{itemize}
+%
+%	\itemsep \sepval
+%
+%	\item Developed a book genre classifier based on parameters extracted from the cover and a title of the book.
+%
+%	\item Employed {\bf{Bag of Words}} for the title and a CNN for the book cover. 
+%
+%\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l}
+
+{\bf Programming Languages \& HDL} &  Embedded C, ARM Assembly, VHDL, C, C++, Shell Scripting, Python\\ \vspace{-0.4cm}
+
+%\\{\bf Hardware Platforms} & FPGA, STM, ARM, AVR, BeagleBone, Raspberry Pi\\ \vspace{-0.3cm}
+
+\\{\bf Design Tools} &  Vivado HLS, Xilinx SDK, TI CCS, Intel Quartus \\ \vspace{-0.4cm}
+%\\{\bf Others} & Photoshop, Illustrator, Premeire Pro, AutoCad \& SolidWorks
+%\\
+
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	KEY COURSES TAKEN
+%----------------------------------------------------------------------------------------
+
+%\vspace{-0.1cm}
+%
+%\begin{rSection}{Key Courses Taken}
+%
+%\begin{tabular}{l l}
+%
+%{\bf{Embedded}}           & Embedded System Design(\emph{EE}),Embedded System Design(\emph{CSE})\\
+%
+%{\bf{Digital Design}}     & VLSI Design, System Design, Microprocessors, Sensors in Instrumentation\\
+%
+%{\bf{Math \& Statistics}} & Data-Analysis and Interpretation, Probability \& Random Processes,\\ 
+%			  & Introduction to Numerical Analysis, Complex Analysis \\
+%
+%{\bf{Miscellaneous}}      & Digital Signal Processing, Communication Systems, \\
+%			  & EM waves, Control Systems, Introduction to MEMS\\
+%
+%\end{tabular}
+%
+%\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%	Positions of Responsibility
+%--------------------------------------------------------------------------------
+
+\vspace{-0.2cm}
+
+\begin{rSection}{Positions Of Responsibility}
+
+\vspace{-0.4cm}
+
+	\item {\bf{Teaching Assistant}} $\mid$ Electromagnetic Waves \hfill{(Jul'18 - Present)}
+		
+		\vspace{-0.2cm}
+
+		\begin{itemize}[leftmargin=*]
+			
+			\itemsep \sepval
+				
+			\item Evaluated {\bf answer scripts} and {\bf conducted practice sessions} for a batch of {\bf{100}}+ students in the course
+
+			\item {\bf Managed logistics} and assisted the professor in {\bf ensuring smooth functioning} of the course and exams
+
+			%\item Assisting evaluation of answer scripts, assignments for a batch of 120+ undergraduate students		
+	
+			%\item In charge of {\bf{setting questions}} for tutorials and evaluating the answer scripts.
+
+		\end{itemize}
+
+	\vspace{-0.1cm}
+
+	\item {\bf{Overall Music Coordinator}} $\mid$ Performance Arts Festival'18 \hfill{(Feb'18 - Apr'18)}
+
+		\vspace{-0.2cm}
+
+		\begin{itemize}[leftmargin=*]
+			
+			\itemsep \sepval
+		
+			\item Secured the {\bf First place} in Performance Arts Festival'18 out of four teams comprising {\bf 600+students}
+ 
+			\item Won the award for {\bf{Best Music}} and a {\bf Special mention for Organizing skills} out of {\bf 100+ students}	
+
+			\item Was the {\bf{principal composer}} of the {\bf{background score}} and an {\bf{original composition}}. 
+	
+		\end{itemize}
+
+\end{rSection}
+
+%\begin{rSection}{Extra-curriculars and Hobbies}
+%
+%\begin{itemize}
+%
+%	\itemsep \sepval
+%
+%	\item Won the {\bf{Inter-hostel Music Championship}} as a part of an {\bf{8 piece band}}. 
+%	
+%	\item Experience of {\bf{4 years}} in playing {\bf{Spanish guitar}} and composing music.
+%	
+%	\item Completed a 1 year long training in {\bf Cricket} under {\bf  National Sport Organization, IIT-Bombay}.
+%
+%\end{itemize}
+%
+%\end{rSection}
+
+\end{document}
+
