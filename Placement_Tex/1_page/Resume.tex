@@ -1,9 +1,20 @@
 
 \documentclass{resume}
 \usepackage{enumitem}
-\usepackage[left = 0.4in,right=0.4in,top=0.1in,bottom=0.1in]{geometry} 
+\usepackage[left = 0.4in,right=0.4in,top=-0.5in,bottom=0.1in]{geometry} 
 \usepackage{relsize}
 \usepackage{scrextend}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+\urlstyle{same}
+\name{Prathu Baronia}
 
 %\usepackage{graphicx}
 %\renewcommand\footnoterule{\rule{\linewidth}{0.1pt}}
@@ -13,11 +24,63 @@
 
 \begin{document}
 
+%\vspace{3.5cm}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT DETAILS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{contact_details}
+
+{\bf Name: Prathu Baronia \hfill Email: prathu.baronia@praton.me}\\
+{\bf Current Location: Hyderabad \hfill Mob no: 7738695845}
+
+%\end{contact_details}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\vspace{-.4cm}
+ 
+\item{\bf {\bf Innovation System Engineer}}\hfill{(Jul'19 - Present)}\\
+	\emph{Oneplus Software R\&D Centre Private Ltd, Hyderabad}\\
+[-0.4cm]
+
+\begin{itemize}[leftmargin=*]
+
+	\itemsep \sepval
+
+	\item {\bf Increased THP zeroing efficiency by 60\%} in the {\bf upstream
+		Linux Kernel} with this
+		\href{https://github.com/hnaz/linux-mm/commit/8d9c9dbbeb54b980971085f1696758389e5d0675}{patch}
+		in {\bf memory subsystem}
+
+	\item Held the {\bf Innovation and Research POC position} for the {\bf BSP Stability
+		and Performance team} for 3 months
+	
+	\item {\bf Individually} carried out the {\bf complete kernel and device tree
+		porting} for {\bf Android R for Oneplus-Nord}
+	
+	\item {\bf Reduced process time by 5x} by developing {\bf auto-porting tools}. Received {\bf Employee of the month award} for
+		it
+		
+	\item Have been awarded {\bf Employee of the month} award {\bf thrice} for {\bf innovative and exceptional
+		contributions}
+
+	\item Initiated a {\bf documentation drive} in BSP team, was the
+		{\bf knowledge wiki maintainer} and the {\bf highest
+		contributor}
+
+\end{itemize}
+
+\end{rSection}
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
-\vspace{3.5cm}
 
 \renewcommand\labelitemi{\raisebox{0.45ex}{\tiny$\bullet$}}
 
@@ -31,12 +94,8 @@
 	
 	\item Scored {\bf 342 out of 360} in {\bf JEE-MAIN-2014} with a percentile of {\bf 99.92} among {\bf 12.7 lakh} candidates
 
-	%\item Scored {\bf 342/360} in {\bf JEE-Main-2014}, a National level Entrance Exam for Engineering Colleges across India
-	
 	\item  Achieved {\bf All India Rank 163} in prestigious {\bf KVPY fellowship, 2014} conducted by {\bf DST, Govt. of India}
 
-	%\item Awarded the prestigious {\bf Kishore Vaigyanik Protsahan Yojana} mentorship scheme, 2014
-	
 	%\item Awarded {\bf Merit Certificate} in {\bf National Standard Examination in Astronomy-2014} and 
 	%      {\bf National Standard Examination in Chemistry-2014} for being among Top 300 students across the country
 	
@@ -45,7 +104,7 @@
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	ACADEMIC AND INTERN WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Professional \& Research Experience}
@@ -73,7 +132,7 @@
 \end{itemize}
 
 \vspace{-0.1cm}
-\item {\bf{Linux Port to Indigenous AJIT Processor}} \hfill {(Jul'18 - Present)}\\
+\item {\bf{Linux Port to Indigenous AJIT Processor}} \hfill {(Jul'18 - Jun'19)}\\
 
 \emph{Guide: Prof. Madhav P. Desai, IIT-Bombay}\\
 [-0.6cm]
@@ -84,13 +143,15 @@
 
 	\item Member of {\bf Embedded Software Design} team of {\bf India's first} in-house {\bf designed and fabricated processor}
 	
-	\item Generated and tested an {\bf exclusive AXI-Lite interface DDR Memory controller} for a {\bf 32 bit Sparc V8 processor}
+	\item Generated and tested an {\bf exclusive AXI-Lite interface DDR
+		Memory controller} for a {\bf 32-bit Sparc V8 processor}
 	      
-	\item Conducted memory tests on the Xilinx Virtex 7 Series {\bf FPGA} board with a prototype Microblaze processor.
+	\item Conducted {\bf memory marching tests} on the Xilinx Virtex 7 Series {\bf FPGA} board with a prototype Microblaze processor
 	
-	\item Developed a {\bf PCIe - AXI interface} and verified it with a {\bf custom-developed C driver for PCIe peripherals}
+	\item Developed a {\bf PCIe - AXI interface} and verified it with a {\bf
+		custom userspace C driver for PCIe-AXI peripherals}
 
-	\item Generated an {\bf exclusive Memory mapped AXI Stream FIFOs} through {\bf High Level Synthesis} tools
+	\item Generated {\bf exclusive Memory mapped AXI Stream FIFOs} through {\bf High Level Synthesis} tools
 
 \end{itemize}
 
@@ -110,7 +171,8 @@
 
 	\item {\bf Ported Android 5}(Lollipop) to {\bf ARM Cortex A9} to build a {\bf bare bone IoT infrastructure} on Zedboard
 	
-	\item Developed {\bf First Stage bootloader}, {\bf Second Stage bootloader and an Android patched Kernel} from scratch
+	\item Developed {\bf First Stage bootloader}, {\bf Second Stage
+		bootloader and an Android patched Kernel} for the Zedboard
 	
 	\item Designed {\bf exclusive HDMI hardware block} and a {\bf GPIO core} using programmable logic segments
 	
@@ -291,11 +353,13 @@
 
 \begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l}
 
-{\bf Programming Languages \& HDL} &  Embedded C, ARM Assembly, VHDL, C, C++, Shell Scripting, Python\\ \vspace{-0.4cm}
+	{\bf Programming Languages \& HDL} &  {\bf ARM Assembly, C, Shell
+	Scripting}, C++, 
+	Python, VHDL \\ \vspace{-0.4cm}
 
 %\\{\bf Hardware Platforms} & FPGA, STM, ARM, AVR, BeagleBone, Raspberry Pi\\ \vspace{-0.3cm}
 
-\\{\bf Design Tools} &  Vivado HLS, Xilinx SDK, TI CCS, Intel Quartus \\ \vspace{-0.4cm}
+	\\{\bf Debug and Design Tools} &  {\bf T32, Crash utility, GDB}, Vivado HLS, Xilinx SDK, TI CCS, Intel Quartus \\ \vspace{-0.4cm}
 %\\{\bf Others} & Photoshop, Illustrator, Premeire Pro, AutoCad \& SolidWorks
 %\\
 
@@ -338,7 +402,8 @@
 
 \vspace{-0.4cm}
 
-	\item {\bf{Teaching Assistant}} $\mid$ Electromagnetic Waves \hfill{(Jul'18 - Present)}
+	\item {\bf{Teaching Assistant}} $\mid$ Electromagnetic Waves
+		\hfill{(Jul'18 - Apr'19)}
 		
 		\vspace{-0.2cm}
 
