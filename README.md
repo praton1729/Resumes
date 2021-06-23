@@ -1,2 +1,3 @@
 # Resumes
-My college resumes and the corresponding Latex files 
+
+My Resumes and the corresponding Latex files 
