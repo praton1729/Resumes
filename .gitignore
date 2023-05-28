@@ -1,7 +1,6 @@
-Trash/
-*/Resume.aux
-*/Resume.log
-*/Resume.fls
-*/Resume.fdb_latexmk
-*/Resume.out
-*/Resume.pdf
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.pdf
