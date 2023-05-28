@@ -1,9 +1,8 @@
 # Resumes
 
-My Resumes and the corresponding Latex files.
-
-- Single page is updated and is ready for use.
-- Double page is outdated and corresponds to the college format.
+My resume and the corresponding Latex files.
+	- main.tex is the main resume file
+	- resume.cls is the template file
 
 Publishing it here for keeping record.
 Feel free to use it. Cheers!!
