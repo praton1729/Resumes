@@ -1,7 +1,7 @@
 
 default: main.pdf
 
-main.tex: header.tex work_exp.tex courses.tex tech_skills.tex por.tex
+main.tex: header.tex education.tex work_exp.tex projects.tex tech_skills.tex achievements.tex certifications.tex
 	touch $@
 
 main.pdf: main.tex
